@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+#title{
+background-color: black;
+color:white;
+height:3.5rem;
+
+line-height: 3.5rem;
+}
+.choices{
+    margin-top: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:0.5rem
+
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 50%;
+}
+.choice:hover{
+    background-color: black;
+}
+img{
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+#playerscore, #compscore{
+    font-size: 4rem;
+}
+.msgbox{
+    margin-top: 4rem;
+}
+#msg{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline;
+}
+.reset-btn{
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(2, 2, 2);
+    color:rgb(240, 240, 240);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
